@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         scoreView.setText(String.valueOf(score));
     }
 
-    public void theResetButton(View v){
+    public void theResetButton(View v) {
         scoreTeamA = 0;
         scoreTeamB = 0;
         displayForTeamA(scoreTeamA);

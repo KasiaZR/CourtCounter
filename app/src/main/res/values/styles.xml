@@ -6,4 +6,10 @@
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#FF9800</item>
     </style>
+
+    <style name="courtCounter">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
 </resources>
