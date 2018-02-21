@@ -8,9 +8,9 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    int scoreTeamA = 0;
+    int scoreTeamA;
 
-    int scoreTeamB = 0;
+    int scoreTeamB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team A by 1 point.
      */
     public void addOneForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 1;
+        scoreTeamA++;
         displayForTeamA(scoreTeamA);
     }
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team A by 2 points.
      */
     public void addTwoForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 2;
+        scoreTeamA += 2;
         displayForTeamA(scoreTeamA);
     }
 
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team A by 3 points.
      */
     public void addThreeForTeamA(View v) {
-        scoreTeamA = scoreTeamA + 3;
+        scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
     }
 
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team B by 1 point.
      */
     public void addOneForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 1;
+        scoreTeamB++;
         displayForTeamB(scoreTeamB);
     }
 
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team B by 2 points.
      */
     public void addTwoForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 2;
+        scoreTeamB += 2;
         displayForTeamB(scoreTeamB);
     }
 
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Team B by 3 points.
      */
     public void addThreeForTeamB(View v) {
-        scoreTeamB = scoreTeamB + 3;
+        scoreTeamB += 3;
         displayForTeamB(scoreTeamB);
     }
 
